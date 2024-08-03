@@ -1,8 +1,7 @@
---Cleaning the data in sql
+                                 -------------DATA CLEANING USING SQL in SQL SERVER---------------------
 
- 
-
---Standardize the date format
+---------We have taken a dataset of the Nashville Housing Community and we are trying to clean the data by handling the 
+---------missing or inconsistent data. We are also trying to correct/ modify the unformatted and unclear data from the dataset.
 
 select SaleDateConverted, CONVERT(Date,SaleDate) as UpdatedDate
 from SQLPortfolioProject.dbo.[Nashville Housing]
